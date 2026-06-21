@@ -1,0 +1,21 @@
+[
+    {
+        "file": "./blonde.jpeg",
+        "prompt": "A beautiful blonde woman with striking blue eyes and an hourglass figure posing confidently for a magazine cover."
+    },
+    {
+        "prompt": "From below shot of a cat catholic priest performing an exorcism on a demonic cat, a parody on The Exorcist movie."
+    },
+    {
+        "model": "02",
+        "options": "1080p-6sec",
+        "prompt": "Zoom in on a cute red shiny robot holding a white banner with text 'useapi.net', Pixar animation style."
+    },
+    {
+        "model": "Seedance-2.0",
+        "resolution": "1080",
+        "duration": 8,
+        "aspectRatio": "16:9",
+        "prompt": "Cinematic tracking shot through a neon-lit alley at night, rain reflections on wet pavement."
+    }
+]

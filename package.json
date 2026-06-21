@@ -1,0 +1,9 @@
+{
+  "name": "minimax-api",
+  "version": "1.0.0",
+  "description": "Runnable Node.js examples for the MiniMax (Hailuo) API by useapi.net — Hailuo 01 / 02 / 2.3 video, plus Veo 3.1, Sora 2 and Seedance 2.0 hosted by MiniMax.",
+  "author": "useapi.net",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://useapi.net/docs/api-minimax-v1"
+}
