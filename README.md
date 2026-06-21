@@ -24,7 +24,7 @@ node ./videos.mjs <API_TOKEN>
 
 - [How to Generate AI Video with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-bash) — batch-generate Hailuo 01 / 02 / 2.3 video, plus Veo 3.1, Sora 2 and Seedance 2.0 hosted by MiniMax, with a complete Node.js example.
 
-MiniMax's original **text-to-speech** and **music** endpoints have since been retired, so they are not scripted here — the historical showcases remain at [MiniMax API Text-to-Speech (TTS): Voices & Samples](https://useapi.net/docs/articles/minimax-tts-samples) and [MiniMax API Music Generation: Examples & Samples](https://useapi.net/docs/articles/minimax-music-samples). For current speech and music, use the [Mureka API](https://useapi.net/docs/api-mureka-v1).
+**Speech 2.5** and **Music 2.0** are available via the [MiniMax Agent](https://useapi.net/docs/api-minimax-v1/post-minimax-agent) (`POST /agent`), not scripted in this repo.
 
 ## About useapi.net
 
