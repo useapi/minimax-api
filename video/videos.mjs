@@ -380,7 +380,7 @@ async function execute(apiToken, promptFile) {
 
             const ext = file.split('.').pop();
             if (!supportedFileExtensions.includes(ext)) {
-                warnings.push(`⚠️  File ${file} extension ${ext} now supported. Skip prompt ${i}`);
+                warnings.push(`⚠️  File ${file} extension ${ext} not supported. Skip prompt ${i}`);
                 continue;
             }
         }
