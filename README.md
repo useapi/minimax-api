@@ -1,6 +1,6 @@
 # MiniMax (Hailuo) API examples (useapi.net)
 
-Runnable Node.js examples for the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net) — drive your own [MiniMax / Hailuo](https://hailuoai.video) account over a simple REST API. Generate **Hailuo 01 / 02 / 2.3** video (plus **Veo 3.1** and **Sora 2** via MiniMax) and a deep image roster — **Midjourney V7 / NiJi 7**, **Nano Banana / 2 / Pro**, **GPT Image 1.5 / 2.0**, **Seedream 4.5 / 5.0**, image-01 — all from one account with multi-account load balancing and no per-call metering.
+Runnable Node.js examples for the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net) — drive your own [MiniMax / Hailuo](https://hailuoai.video) account over a simple REST API. Generate **Hailuo 01 / 02 / 2.3** video (plus **Veo 3.1** and **Sora 2** via MiniMax) and a deep image roster — **Midjourney V7 / NiJi 7**, **Nano Banana 2 / Pro**, **GPT Image 1.5 / 2.0**, **Seedream 4.5 / 5.0**, image-01 — all from one account with multi-account load balancing and no per-call metering.
 
 Each example reads a list of prompts from a JSON file, submits them through the useapi.net MiniMax API, polls each task until it is final, and downloads every result — so you can queue a batch and come back to the winners.
 
