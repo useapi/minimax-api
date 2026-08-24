@@ -2,6 +2,8 @@
 
 Batch-generate narration with **MiniMax Speech 2.8** through the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net), driving your own [MiniMax / Hailuo](https://hailuoai.video) account.
 
+📖 Full walkthrough: **[How to Generate Text-to-Speech Audio with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-speech-bash)**
+
 `speech.mjs` reads lines from `lines.json`, submits each one to [`POST /speech/create`](https://useapi.net/docs/api-minimax-v1/post-minimax-speech-create), polls [`GET /speech/{audioId}`](https://useapi.net/docs/api-minimax-v1/get-minimax-speech_audio_id) until each generation is final, and downloads every MP3.
 
 ## Prerequisites
@@ -58,6 +60,6 @@ Three kinds of markup go directly inside `text`, and they combine. Emotion tags 
 
 Speech bills per character against the MiniMax audio balance — 1 credit per character on an `hd` model, 0.6 on a `turbo` one. [GET /speech/{audioId}](https://useapi.net/docs/api-minimax-v1/get-minimax-speech_audio_id) reports what was actually charged as `cost_credit`.
 
-## Tutorial
+## Beyond this script
 
-[How to Generate Text-to-Speech Audio with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-speech-bash) — the full walkthrough: picking a voice, steering delivery, word timings for captions, voice cloning, streaming, and what it costs.
+The [tutorial](https://useapi.net/docs/articles/minimax-speech-bash) covers what `speech.mjs` does not: word timings for captions, [cloning a voice](https://useapi.net/docs/api-minimax-v1/post-minimax-speech-clone-voice) from a one-minute sample, and [streaming](https://useapi.net/docs/api-minimax-v1/post-minimax-speech-create-stream) the audio as it renders so playback can start before it is finished.
