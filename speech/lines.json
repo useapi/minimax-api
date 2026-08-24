@@ -1,0 +1,41 @@
+[
+    {
+        "name": "01-baseline",
+        "text": "The last train leaves at midnight, and I still have not packed.",
+        "voice_id": "380426458095854"
+    },
+    {
+        "name": "02-emotion-parameter",
+        "text": "The last train leaves at midnight, and I still have not packed.",
+        "voice_id": "380426458095854",
+        "model": "speech-2.8-hd",
+        "emotion": "sad"
+    },
+    {
+        "name": "03-emotion-markup",
+        "text": "{angry}Look at what you have done.{/angry} {happy}But I forgive you.{/happy}",
+        "voice_id": "380426458095854",
+        "model": "speech-2.8-hd"
+    },
+    {
+        "name": "04-sounds-and-pauses",
+        "text": "I read the letter twice (sighs) and put it back in the drawer. <#1.5#> Then I picked up the phone.",
+        "voice_id": "380426458095854",
+        "model": "speech-2.8-hd"
+    },
+    {
+        "name": "05-slow-and-low",
+        "text": "Take your time. There is no hurry at all.",
+        "voice_id": "380426458095854",
+        "model": "speech-2.8-hd",
+        "speed": 0.8,
+        "pitch": -3
+    },
+    {
+        "name": "06-turbo",
+        "text": "Turbo costs 0.6 credits a character instead of one, and the difference is audible only on long narration.",
+        "voice_id": "380426458095854",
+        "model": "speech-2.8-turbo",
+        "language_boost": "English"
+    }
+]

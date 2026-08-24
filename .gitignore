@@ -4,6 +4,7 @@ node_modules
 
 # Downloaded / generated media + local input frames you supply
 *.mp4
+*.mp3
 *.jpg
 *.jpeg
 *.png
