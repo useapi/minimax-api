@@ -1,6 +1,6 @@
 # MiniMax (Hailuo) video — MiniMax API batch generation (Node.js)
 
-Batch-generate [Hailuo 01 / 02 / 2.3](https://hailuoai.video) video — plus **Veo 3.1**, **Sora 2** and **Seedance 2.0** hosted by MiniMax — through the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net/?utm_source=github&utm_medium=readme&utm_campaign=minimax-api).
+Batch-generate [Hailuo 01 / 02 / 2.3](https://hailuoai.video) video — plus **Veo 3.1**, **Sora 2** and **Seedance 2.0** hosted by MiniMax — through the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api).
 
 📖 Full walkthrough: **[How to Generate AI Video with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-bash)**
 
@@ -9,7 +9,7 @@ Batch-generate [Hailuo 01 / 02 / 2.3](https://hailuoai.video) video — plus **V
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) v21 or newer (no dependencies to install — uses built-in `fetch`)
-- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github&utm_medium=readme&utm_campaign=minimax-api)
+- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api)
 - A connected [MiniMax account](https://useapi.net/docs/start-here/setup-minimax) (with video support)
 
 ## Usage
