@@ -1,6 +1,6 @@
 # Speech generation — MiniMax API batch text-to-speech (Node.js)
 
-Batch-generate narration with **MiniMax Speech 2.8** through the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net), driving your own [MiniMax / Hailuo](https://hailuoai.video) account.
+Batch-generate narration with **MiniMax Speech 2.8** through the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net/?utm_source=github&utm_medium=readme&utm_campaign=minimax-api), driving your own [MiniMax / Hailuo](https://hailuoai.video) account.
 
 📖 Full walkthrough: **[How to Generate Text-to-Speech Audio with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-speech-bash)**
 
@@ -9,7 +9,7 @@ Batch-generate narration with **MiniMax Speech 2.8** through the [MiniMax API](h
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) v21 or newer (no dependencies to install — uses built-in `fetch`)
-- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi)
+- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github&utm_medium=readme&utm_campaign=minimax-api)
 - A connected [MiniMax account](https://useapi.net/docs/start-here/setup-minimax) **with an audio subscription** — speech bills against the MiniMax audio plan, the same one music uses. Without it the call returns `412` however much video credit the account holds.
 
 ## Usage
