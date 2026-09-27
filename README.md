@@ -43,3 +43,6 @@ node ./speech.mjs <API_TOKEN>                    # generate lines.json
 Visit our [Discord Server](https://discord.gg/w28uK3cnmF) or [Telegram Channel](https://t.me/use_api) for any support questions and concerns.
 
 We regularly post guides and tutorials on the [YouTube Channel](https://www.youtube.com/@useapi-net).
+## License
+
+The example code in this repository is released under the [MIT License](./LICENSE). It covers the example scripts only, not the useapi.net service or API.
