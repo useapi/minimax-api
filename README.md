@@ -49,6 +49,18 @@ node ./speech.mjs <API_TOKEN>                    # generate lines.json
 
 **Music** has its own endpoints too — [POST /music/create](https://useapi.net/docs/api-minimax-v1/post-minimax-music-create) — but is not scripted in this repo yet. For a batch music example see [mureka-api](https://github.com/useapi/mureka-api).
 
+## 中文说明
+
+这是 [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api) 托管的海螺 API（MiniMax Hailuo API）示例代码（Node.js）。通过 REST API 调用 **海螺 3.0（Hailuo 3.0 / MiniMax H3）** 和 **Hailuo 2.3 / 02 / 01** 视频（以及 MiniMax 上的 **Seedance 2.0**、**Veo 3.1**、**Sora 2**），**Speech-2.8** 语音合成（600+ 音色、声音克隆），**Music-3.0** 歌曲和图片生成。
+
+- 使用你自己的 MiniMax / 海螺网站账号和套餐积分，无需 MiniMax 开发者平台的 API Key；多个账号自动负载均衡。
+- 价格：useapi.net 每月 15 美元（含 3 个 MiniMax 账号及所有其他 API），加上你的海螺套餐。以 Master 套餐（每月 89 美元）计，海螺 3.0 768P 约每秒 0.059 美元、2K 约每秒 0.102 美元；MiniMax 官方 [按量付费 API](https://platform.minimax.io/docs/guides/pricing-paygo) 为每秒 0.08 和 0.13 美元（截至 2026 年 10 月）。
+- 音乐：MiniMax 官方付费音乐与歌词 API 自 2026 年 8 月 20 日起不再向新用户开放；通过 useapi.net 可在你自己的账号上生成歌曲。
+
+主要示例：[`video/`](./video)（批量生成视频，可按提示词选择模型）和 [`speech/`](./speech)（批量生成语音旁白）。快速开始见上方 [Quick start](#quick-start)；教程：[How to Generate AI Video with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-bash?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api)；完整文档：[MiniMax API](https://useapi.net/docs/api-minimax-v1?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api)，账号绑定：[MiniMax setup](https://useapi.net/docs/start-here/setup-minimax?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api)。
+
+useapi.net 是第三方 API，与 MiniMax 及海螺 AI 无关联。
+
 ## About useapi.net
 
 [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api) is an experimental REST API for AI services. The MiniMax API drives your own [MiniMax / Hailuo](https://hailuoai.video) account, so you spend your plan's credits at consumer rates instead of metered developer-API pricing. See the [model matrix](https://useapi.net/model-matrix?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api) and pricing on the [API overview](https://useapi.net/docs/api-minimax-v1).
