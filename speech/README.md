@@ -2,7 +2,7 @@
 
 Batch-generate narration with **MiniMax Speech 2.8** through the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api), driving your own [MiniMax / Hailuo](https://hailuoai.video) account.
 
-📖 Full walkthrough: **[How to Generate Text-to-Speech Audio with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-speech-bash)**
+Full walkthrough: **[How to Generate Text-to-Speech (TTS) Audio with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-speech-bash)**
 
 `speech.mjs` reads lines from `lines.json`, submits each one to [`POST /speech/create`](https://useapi.net/docs/api-minimax-v1/post-minimax-speech-create), polls [`GET /speech/{audioId}`](https://useapi.net/docs/api-minimax-v1/get-minimax-speech_audio_id) until each generation is final, and downloads every MP3.
 

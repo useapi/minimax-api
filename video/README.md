@@ -2,7 +2,7 @@
 
 Batch-generate [Hailuo 01 / 02 / 2.3](https://hailuoai.video) video — plus **Veo 3.1**, **Sora 2** and **Seedance 2.0** hosted by MiniMax — through the [MiniMax API](https://useapi.net/docs/api-minimax-v1) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api).
 
-📖 Full walkthrough: **[How to Generate AI Video with the MiniMax (Hailuo) API](https://useapi.net/docs/articles/minimax-bash)**
+Full walkthrough: **[How to Generate Hailuo 02 and 2.3 Video with curl: MiniMax Tutorial](https://useapi.net/docs/articles/minimax-bash)**
 
 Videos made with this API, on YouTube: [Pennywise the Clown • MiniMax T2V 2.3](https://www.youtube.com/watch?v=iIF5wY8Kweg) · [The Lady • MiniMax I2V 2.3](https://youtube.com/shorts/pc9WNBGRBg8) · [MiniMax 02 End Frame](https://youtube.com/shorts/g6_nL6FXI3k) · [Cupcake is no good • Hailuo 02](https://youtube.com/shorts/38I2M0EbqSg) · [Making funny faces • MiniMax 02 540p](https://www.youtube.com/watch?v=LkiSlL19T_0) · [The Cat Exorcist • MiniMax AI](https://www.youtube.com/watch?v=4W4FE4FU2EM)
 
