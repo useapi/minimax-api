@@ -46,7 +46,7 @@ node speech.mjs user:1234-abcdefhijklmnopqrstuv --voices british
 
 Every line needs a voice_id, and the ids are opaque numbers. This lists the account's
 voice catalogue, filtered to entries whose name or tags contain "british". Drop the
-search term to list all 600+.
+search term to list all of them (more than 600).
 
 Changelog:
 ==========
