@@ -45,6 +45,7 @@ Changelog:
 - October 25, 2024: The param prompt is optional and no longer needed if a fileID is provided.
 - November 4, 2024: Retry on 502 and 504.
 - June 15, 2026: Pass through per-prompt model parameters (model, options, resolution, duration, aspectRatio, end_frame_fileID, …) so you can target Hailuo 02/2.3, Sora 2, Veo 3.1 and Seedance 2.0. Any field other than the local "file" upload path is forwarded to videos/create as-is.
+- October 23, 2026: Sora 2 is no longer available: OpenAI shut it down on September 24, 2026. The API answers 400 to model Sora-2.
 
 */
 

@@ -1,6 +1,6 @@
 # MiniMax (Hailuo) video — MiniMax API batch generation (Node.js)
 
-Batch-generate [Hailuo 3.0, 2.3, 02 and 01](https://hailuoai.video) video, plus Veo 3.1, Sora 2 and Seedance 2.0 hosted by MiniMax, on your [Hailuo AI subscription](https://hailuoai.video/subscribe) through the [MiniMax API](https://useapi.net/docs/api-minimax-v1?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api).
+Batch-generate [Hailuo 3.0, 2.3, 02 and 01](https://hailuoai.video) video, plus Veo 3.1 and Seedance 2.0 hosted by MiniMax, on your [Hailuo AI subscription](https://hailuoai.video/subscribe) through the [MiniMax API](https://useapi.net/docs/api-minimax-v1?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api).
 
 Full walkthrough: [How to Generate Hailuo 02 and 2.3 Video with curl: MiniMax Tutorial](https://useapi.net/docs/articles/minimax-bash?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api)
 
@@ -24,7 +24,7 @@ node ./videos.mjs <API_TOKEN> [PROMPTS_FILE]
 
 ## Prompts
 
-`videos.json` is an array of prompt objects. Either `prompt` (text) or `file` (a local `.png` or `.jpeg` image; rename `.webp` to `.jpeg`) is required; you can supply both. Omit `model` to fall back to the Hailuo 01 defaults (`T2V-01` for text, `I2V-01` for an image — 720p, 6 sec). Set `model` plus the parameters that model supports — `options` (resolution/duration for Hailuo 02/2.3, Sora 2 and Veo 3.1), `resolution` and `duration` (Hailuo 3.0 and Seedance 2.0), `aspectRatio` (Hailuo 3.0, Sora 2, Veo, Seedance), and `end_frame_fileID` where supported. Any field other than the local `file` upload path is forwarded to `videos/create` as-is. Every supported parameter — and the full per-model matrix — is documented on [POST /videos/create](https://useapi.net/docs/api-minimax-v1/post-minimax-videos-create?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api). Local image paths in `videos.json` are inputs you supply — they are not included in this repo.
+`videos.json` is an array of prompt objects. Either `prompt` (text) or `file` (a local `.png` or `.jpeg` image; rename `.webp` to `.jpeg`) is required; you can supply both. Omit `model` to fall back to the Hailuo 01 defaults (`T2V-01` for text, `I2V-01` for an image — 720p, 6 sec). Set `model` plus the parameters that model supports — `options` (resolution/duration for Hailuo 02/2.3 and Veo 3.1), `resolution` and `duration` (Hailuo 3.0 and Seedance 2.0), `aspectRatio` (Hailuo 3.0, Veo, Seedance), and `end_frame_fileID` where supported. Any field other than the local `file` upload path is forwarded to `videos/create` as-is. Every supported parameter — and the full per-model matrix — is documented on [POST /videos/create](https://useapi.net/docs/api-minimax-v1/post-minimax-videos-create?utm_source=github.com&utm_medium=referral&utm_campaign=minimax-api). Local image paths in `videos.json` are inputs you supply — they are not included in this repo.
 
 ---
 
